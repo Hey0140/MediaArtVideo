@@ -11,7 +11,7 @@ export default function MediaArtGallery() {
     const videoCount = 8;
     const imageData = Array.from({ length: videoCount }, (_, idx) => {
         const filename = `result_output_${idx}.mp4`;
-        const thumbnail = `/result_output_${idx}.png`;
+        const thumbnail = `/result_output_0.png`;
         return {
             video: `${baseURL}${filename}`,
             thumbnail: `${thumbnail}`,
